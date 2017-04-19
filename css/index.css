@@ -1,0 +1,107 @@
+.headnav
+{
+font-family:Times New Roman;
+font-size:20px;
+color:white;
+}
+body
+{
+	background:  #999999;
+}
+header {
+    padding-top:1px;
+    color: white;
+
+    padding-bottom:10px;
+    text-align: center;
+}
+h1
+{font-family: 'Chonburi', cursive;font-weight: bold;}
+/*PANEL AND ITS CONTENTS*/
+.panel-body
+{
+	display:none;
+}
+#left_panel_body
+{
+	background-color:#b3ccff;
+	border: 2px solid #b3ccff;
+	border-radius:3px;
+}
+#right_panel_body
+{   
+	width:230px;height:355px;
+	display:block;
+	background-color:#595959;
+}
+.rotate 
+{  float:right;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#595959;
+border: 1px solid #595959;
+padding-left:3px;padding-right:5px;
+border-radius:12px;
+}
+
+.navbar
+{
+	background-color: #595959;
+	border-color:#595959;
+	border-radius: 0px;
+}
+.navleft
+{
+	
+	float:left;
+}
+.navright
+{
+	float:right;
+	
+}
+a{
+	font-size:16px;
+	display:block;
+}
+a:hover
+{ font-weight:bold;
+text-decoration:none;
+ color:blue;
+ font-size:19px;
+ transition: 0.5s ease;
+}
+.article
+{ 
+	border:2px solid white;
+	background-color:#f2f2f2;
+  height:400px;	
+}
+
+span
+{
+	float:left;padding-top:4px;
+}
+
+.btn-default
+{   margin:5px 0px 5px 0px;
+	font-size:16px;
+	color:white;
+	background-color:#e60073;
+    border-color:#e60073;
+
+}
+.btn-default:hover
+{      font-family:chonburi;
+	font-size:16px;
+	background-color:#3cc350;
+    border-color:#3cc350;
+	-webkit-transition:linear 0.5s;
+    -moz-transition:linear 0.5s;
+	-o-transition:linear 0.5s;
+	 transition:linear 0.5s;
+	-webkit-transform:translateX(25px);
+	-moz-transform:translateX(25px);
+	-o-transform:translateX(25px);
+	 transform:translateX(25px);
+}

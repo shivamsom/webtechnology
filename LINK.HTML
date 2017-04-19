@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+<STYLE>
+.LIS
+{
+ LIST-STYLE-TYPE:DISC;
+FONT-SIZE:150%; 
+COLOR:RED;
+} 
+LI A:HOVER
+{color:brown;}
+
+label
+{
+font-weight:bold;color:red;
+border: 2px solid green;padding:5px;
+border-radius:12px;
+box-shadow: 12px 12px 8px #888888;
+text-shadow: 5px 5px 3px #a3a375;
+}
+footer
+{
+position:absolute;
+top:400px;
+}
+a
+{
+text-shadow: 2px 3px 4px #66b3ff;
+}
+</STYLE>
+
+
+<BODY BACKGROUND="G:\PROJECT\TEMPLATE.JPG"><br><br><br>
+<script>
+function displaysborca(z)
+{   var x;
+   	switch(z)
+     {
+     	case "s" :  x = document.getElementById("display") ;
+      		x.style.visibility = "visible";       
+      		document.getElementById("txt").innerHTML = "&#8680; Savings Account Selected";
+			break;
+	case "c" :  x = document.getElementById("display") ;
+      		x.style.visibility = "visible";       
+      		document.getElementById("txt").innerHTML = "&#8680; Current Account Selected";
+			break;
+    }
+}
+</script>
+
+<UL>
+<LI CLASS="LIS"><A HREF="G:/PROJECT/custformsb.HTML" TARGET="SBF" STYLE="TEXT-DECORATION:NONE;FONT-WEIGHT:BOLD;" onclick=" displaysborca('s') ">Savings Bank Account</A></LI>
+<BR>
+<LI CLASS="LIS"><A HREF="G:/PROJECT/customerca.HTML" TARGET="SBF" STYLE="TEXT-DECORATION:NONE;FONT-WEIGHT:BOLD;" onclick=" displaysborca('c') ">Current Account</A></LI>
+<BR>
+</UL>
+<footer><p ID="display" style="visibility:hidden;" CLASS="LIS"><label id="txt"></label></p>
+</footer>
+</BODY>
+</HTML>

@@ -1,0 +1,38 @@
+table
+{
+	border:1px solid black;
+	margin:0px;
+	background-color:#e6e6e6;
+}
+td
+{ 
+padding:3px;
+}
+button
+{font-size:16px;cursor:pointer;
+padding-right:18px;	
+background-color: #39ac39;
+border-color: #39ac39;
+color:white;
+}
+#disp
+{
+	font-size:18px;
+}
+#opr
+{
+	font-size:13px;font-weight:bolder;
+}
+
+#clr,#bksp
+{
+  background-color: #ff4d4d;
+  border-color: #ff4d4d;
+}
+#div,#mul,#add,#sub,#per,#equal
+{
+	background-color:#80aaff;
+	border-color:#80aaff;
+}
+#per
+{font-size:}

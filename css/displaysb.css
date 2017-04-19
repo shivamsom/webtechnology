@@ -1,0 +1,26 @@
+th
+   {
+      background-color: #4c7ac4;
+      color:white;
+   }
+
+   a:hover
+   {
+      color:red;
+   }
+   h3
+   {  font-style: Times New Roman;
+      font-weight: bolder;
+      font-size: 29px;
+      color:red;display:inline;
+   }
+   #s1
+   {
+    font-size: 20px;
+
+   }
+   #s2
+   {
+    font-size: 18px;
+    color: #2f35d8;
+   }
